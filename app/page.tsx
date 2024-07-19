@@ -15,25 +15,31 @@ import ServiceOptions from "./serviceOptions";
 import AdditionalService from "./additionalService";
 import TaxConsultation from "./taxConsultation";
 import TaxConsultation2 from "./taxConsultation2";
+import NewUser from "@/app/newUser";
+import NavButtom from "@/app/navButtom";
+import TaxpayerService from "@/app/taxpayerService";
 
 export default function Home() {
-  return (
-    <main>
-      <Nav />
-      <Hero />
-      <Competencies />
-      <Suppliers />
-      <Reliability />
-      <AboutService />
-      <IndustryExpertise />
-      <Specialist />
-      <CooperationStages />
-      <CommissionTable />
-      <CommissionService />
-      <ServiceOptions />
-      <AdditionalService />
-      <TaxConsultation />
-      <TaxConsultation2 />
-    </main>
-  );
+    return (
+        <main>
+            <Nav/>
+            <Hero/>
+            <Competencies/>
+            <Suppliers/>
+            <Reliability/>
+            <AboutService/>
+            <IndustryExpertise/>
+            <Specialist/>
+            <CooperationStages/>
+            <CommissionTable/>
+            <CommissionService/>
+            <ServiceOptions/>
+            <AdditionalService/>
+            <TaxConsultation/>
+            <TaxConsultation2/>
+            <NewUser/>
+            <TaxpayerService/>
+            <NavButtom/>
+        </main>
+    );
 }
