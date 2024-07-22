@@ -3,6 +3,13 @@ import Image from "next/image";
 const CommissionService = () => {
   return (
       <div className="max-w-4xl mx-auto border justify-center my-8 relative">
+          <Image
+              src="rombus6.svg"
+              width={200}
+              height={200}
+              alt="rombus"
+              className="absolute -right-60 -top-16"
+          />
         <div className="flex  justify-center space-x-4">
           <div className="relative flex space-x-6 items-center ">
             <Image
@@ -10,7 +17,7 @@ const CommissionService = () => {
                 width={400}
                 height={400}
                 alt="rombus"
-                className="absolute -top-20 -z-50 left-40"
+                className="absolute -top-20 -z-50 -left-20 rotate-180"
             />
             <Image src="/computer.svg" width={300} height={300} alt="computer" />
             <Image

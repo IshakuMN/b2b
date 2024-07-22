@@ -2,7 +2,14 @@ import Image from "next/image";
 
 const Suppliers = () => {
   return (
-    <div className="max-w-4xl mx-auto ">
+    <div className="max-w-4xl mx-auto relative">
+      <Image
+          src="percent2.svg"
+          width={130}
+          height={130}
+          alt="percent"
+          className="absolute -left-60 -top-16"
+      />
       <div className="flex items-center justify-between ">
         {" "}
         <div className="flex items-center gap-2 my-4 rounded-lg border-2 py-2 px-4 h-fit w-fit shadow-md">

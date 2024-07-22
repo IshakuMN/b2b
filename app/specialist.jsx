@@ -2,7 +2,21 @@ import Image from "next/image";
 
 const Specialist = () => {
   return (
-    <div className="flex flex-col max-w-4xl mx-auto justify-center items-center my-8">
+    <div className="flex flex-col max-w-4xl mx-auto justify-center items-center my-8 relative">
+      <Image
+          src="gear.svg"
+          width={200}
+          height={200}
+          alt="gear"
+          className="absolute -left-60 top-0"
+      />
+      <Image
+          src="rombus5.svg"
+          width={400}
+          height={400}
+          alt="rombus"
+          className="absolute -right-60 -top-20"
+      />
       <h1 className="text-3xl font-medium">5 СПЕЦИАЛИСТОВ</h1>
       <p className="text-sm">СОПРОВОЖДАЮТ ВАШУ ЗАЯВКУ</p>
       <div className="my-8 border relative">

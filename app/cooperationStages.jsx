@@ -2,7 +2,28 @@ import Image from "next/image";
 
 const CooperationStages = () => {
   return (
-    <div className="max-w-4xl border mx-auto my-8">
+    <div className="max-w-4xl border mx-auto my-8 relative">
+      <Image
+          src="rombus6.svg"
+          width={50}
+          height={50}
+          alt="rombus"
+          className="absolute -left-20 -bottom-40"
+      />
+      <Image
+          src="gear.svg"
+          width={60}
+          height={60}
+          alt="gear"
+          className="absolute right-0 -top-10"
+      />
+      <Image
+          src="gear.svg"
+          width={150}
+          height={150}
+          alt="gear"
+          className="absolute top-8 -right-20"
+      />
       <h1 className="text-3xl font-medium text-center">ЭТАПЫ СОТРУДНИЧЕСТВА</h1>
       <div className="relative mt-36">
         <div className="w-36 border absolute -top-24 left-56">

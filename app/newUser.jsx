@@ -12,9 +12,37 @@ import {
 
 const NewUser = () => {
     return (
-        <section className="max-w-4xl border mx-auto my-8">
+        <section className="max-w-4xl border mx-auto my-8 relative">
+            <Image
+                src="rombus3.svg"
+                alt="rombus3"
+                width={220}
+                height={220}
+                className="absolute -left-60 -top-20"
+            />
+            <Image
+                src="rombus6.svg"
+                width={180}
+                height={180}
+                alt="rombus"
+                className="absolute -left-60 top-20 rotate-180"
+            />
+            <Image
+                src="rombus4.svg"
+                alt="rombus"
+                width={100}
+                height={100}
+                className="absolute -right-20 -top-10 rotate-180"
+            />
+            <Image
+                src="rombus6.svg"
+                width={50}
+                height={50}
+                alt="rombus"
+                className="absolute -right-20 top-20 rotate-180"
+            />
             <div className="flex flex-col gap-16 w-full align-center">
-                <div className="px-11 py-6 flex flex-row gap-9 align-center rounded-3xl  max-w-[981px] shadow-lg">
+                <div className="px-11 py-6 flex flex-row gap-9 align-center rounded-3xl  max-w-[781px] shadow-lg">
                     <div className="pr-9 border-r-4 border-r-customBlue">
                         <Image
                             className="object-contain h-18 w-20"

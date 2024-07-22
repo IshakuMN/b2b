@@ -21,7 +21,7 @@ import TaxpayerService from "@/app/taxpayerService";
 
 export default function Home() {
     return (
-        <main>
+        <main className="overflow-hidden min-w-80">
             <Nav/>
             <Hero/>
             <Competencies/>

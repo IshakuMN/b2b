@@ -2,7 +2,14 @@ import Image from "next/image";
 
 const ServiceOptions = () => {
   return (
-      <section className="max-w-4xl border mx-auto my-8">
+      <section className="max-w-4xl border mx-auto mb-8 mt-40 relative">
+        <Image
+            src="rombus7.svg"
+            width={180}
+            height={180}
+            alt="rombus"
+            className="absolute -right-40 -top-16"
+        />
         <div className="flex flex-col w-full">
           <h2 className="font-medium text-3xl text-left mb-8">
             ОПЦИИ СЕРВИСА
