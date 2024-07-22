@@ -19,6 +19,15 @@ const config = {
             },
         },
         extend: {
+            lineHeight: {
+                'custom': '1.25rem',
+                'customTwo': '0.8rem',
+            },
+            fontSize: {
+                'custom': '0.75rem',
+                'customThree': '0.69rem',
+                'customFour': '0.6rem',
+            },
             colors: {
                 customGrey: "#F0F0F0",
                 customGreen: "#0AA931",

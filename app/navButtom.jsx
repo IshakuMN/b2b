@@ -8,7 +8,7 @@ export default function NavButtom() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
     return (
-        <div className="w-full h-24 bg-customGrey">
+        <div className="w-full h-24 bg-customGrey max-lg:px-6 max-sm:px-4">
             <div className="max-w-4xl h-full mx-auto flex items-center justify-between cursor-pointer">
                 <Image src="/logo.svg" alt="logo" width={58} height={58} />
                 <div className="flex gap-2 items-center">
