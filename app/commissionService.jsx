@@ -2,16 +2,16 @@ import Image from "next/image";
 
 const CommissionService = () => {
   return (
-      <div className="max-w-4xl mx-auto border justify-center my-8 relative">
+      <div className="max-w-4xl mx-auto border justify-center my-8 relative max-lg:px-6 max-sm:px-4">
           <Image
               src="rombus6.svg"
               width={200}
               height={200}
               alt="rombus"
-              className="absolute -right-60 -top-16"
+              className="absolute -right-60 -top-16 max-lg:-right-20"
           />
         <div className="flex  justify-center space-x-4">
-          <div className="relative flex space-x-6 items-center ">
+          <div className="relative flex space-x-6 items-center max-[540px]:space-x-1 max-[340px]:space-x-0">
             <Image
                 src="/rombusComp.svg"
                 width={400}
@@ -19,17 +19,17 @@ const CommissionService = () => {
                 alt="rombus"
                 className="absolute -top-20 -z-50 -left-20 rotate-180"
             />
-            <Image src="/computer.svg" width={300} height={300} alt="computer" />
+            <Image src="/computer.svg" width={300} height={300} alt="computer" className="max-[540px]:w-[200px] max-[340px]:w-[180px]"/>
             <Image
                 src="/qrCode.svg"
                 width={150}
                 height={150}
                 alt="qrCode"
-                className="pb-10"
+                className="pb-10 max-[540px]:w-[100px]"
             />
           </div>
         </div>
-        <div className="absolute right-4  max-w-48 space-y-4 ">
+        <div className="absolute right-4  max-w-48 space-y-4">
           <p className="text-[10px] font-medium">
             ЗАПРОСИТЬ СПИСОК ПОСТАВЩИКОВ У МЕНЕДЖЕРА
           </p>

@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const CommissionTable = () => {
   return (
-    <div className="max-w-4xl mx-auto mt-56 relative">
+    <div className="max-w-4xl mx-auto mt-56 relative max-lg:px-6 max-sm:px-4">
       <Image
           src="rombus6.svg"
           width={200}
           height={200}
           alt="rombus"
-          className="absolute -left-60 -top-16"
+          className="absolute -left-60 -top-16 -z-10 max-lg:-left-20"
       />
       <h1 className="text-3xl font-medium text-center my-8">
         КОМИССИЯ СЕРВИСА

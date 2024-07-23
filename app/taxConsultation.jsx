@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const TaxConsulation = () => {
   return (
-    <section className="max-w-4xl mx-auto my-8 border relative bg-gradient-to-r">
+    <section className="max-w-4xl mx-auto my-8 border relative bg-gradient-to-r  max-lg:px-6 max-sm:px-4">
       <Image
           src="percent1.svg"
           width={50}
@@ -17,8 +17,8 @@ const TaxConsulation = () => {
           alt="percent"
           className="absolute -left-40 top-40"
       />
-      <h2 className="text-3xl font-medium my-8">НАЛОГОВЫЙ КОНСАЛТИНГ</h2>
-      <div className="flex space-x-20">
+      <h2 className="text-3xl font-medium my-8 max-[500px]:text-2xl">НАЛОГОВЫЙ КОНСАЛТИНГ</h2>
+      <div className="flex space-x-20 max-sm:space-x-3 max-[500px]:flex-col max-[500px]:gap-5 max-[500px]:space-x-10">
         {" "}
         <div className="flex flex-col w-fit gap-y-6 border">
           {" "}

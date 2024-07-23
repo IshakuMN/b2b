@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const TaxConsultation2 = () => {
   return (
-    <section className="max-w-4xl mx-auto my-8 border space-y-10 relative">
+    <section className="max-w-4xl mx-auto my-8 border space-y-10 relative max-lg:px-6 max-sm:px-4">
       <Image
           src="rombus8.svg"
           width={300}
           height={200}
           alt="rombus"
-          className="absolute -right-40 top-0"
+          className="absolute -right-40 top-0 -z-10"
       />
       <div className="flex  space-x-4 w-fit rounded-lg border-b-2 border-r-2 shadow-lg py-2 px-6 items-center">
         <Image src="/house.svg" width={50} height={50} />

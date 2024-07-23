@@ -39,10 +39,10 @@ const NewUser = () => {
                 width={50}
                 height={50}
                 alt="rombus"
-                className="absolute -right-20 top-20 rotate-180 max-lg:right-0"
+                className="absolute -right-20 top-20 rotate-180 max-lg:right-0 max-lg:top-10"
             />
             <div className="flex flex-col gap-16 w-full align-center max-md:gap-10">
-                <div className="px-11 py-6 flex flex-row gap-9 align-center rounded-3xl max-w-[781px] shadow-lg relative z-10 max-lg:px-6 max-lg:py-3">
+                <div className="px-11 py-6 flex flex-row gap-9 align-center rounded-3xl max-w-[781px] shadow-lg relative z-10 max-lg:px-6 max-lg:py-3 max-sm:gap-6">
                     <div className="pr-9 border-r-4 border-r-customBlue max-lg:pr-5">
                         <Image
                             className="object-contain h-18 w-20"

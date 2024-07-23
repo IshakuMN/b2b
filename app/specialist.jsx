@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Specialist = () => {
   return (
-    <div className="flex flex-col max-w-4xl mx-auto justify-center items-center my-8 relative">
+    <div className="flex flex-col max-w-4xl mx-auto justify-center items-center my-8 relative max-lg:px-6 max-sm:px-4">
       <Image
           src="gear.svg"
           width={200}

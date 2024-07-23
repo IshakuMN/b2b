@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const IndustryExpertise = () => {
     return (
-        <div className="mx-auto my-8 border max-w-4xl  max-lg:px-6 max-sm:px-4">
+        <div className="mx-auto my-8 border max-w-4xl max-lg:px-6 max-sm:px-4">
             <h1 className="my-8 font-medium text-2xl text-center">
                 ОТРАСЛЕВАЯ ЭКСПЕРТИЗА
             </h1>

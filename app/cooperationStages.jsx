@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const CooperationStages = () => {
   return (
-    <div className="max-w-4xl border mx-auto my-8 relative">
+    <div className="max-w-4xl border mx-auto my-8 relative max-lg:px-6 max-sm:px-4">
       <Image
           src="rombus6.svg"
           width={50}
           height={50}
           alt="rombus"
-          className="absolute -left-20 -bottom-40"
+          className="absolute -left-20 -bottom-40 -z-10 max-lg:-left-10"
       />
       <Image
           src="gear.svg"
@@ -36,7 +36,7 @@ const CooperationStages = () => {
           <h2 className="text-lg font-medium">01</h2>
           <p className="text-[10px] font-light">Вы формируете заявку </p>
         </div>
-        <div className="w-36 border absolute -bottom-[110px] left-[380px]">
+        <div className="w-36 border absolute -bottom-[110px] left-[380px] max-[900px]:left-[330px]">
           <h2 className="text-lg font-medium">03</h2>
           <p className="text-[10px] font-light">
             Подписываем договор и сдаем отчеты после финального утверждения всех
@@ -60,7 +60,7 @@ const CooperationStages = () => {
           src="/cooperationStages.svg"
           width={700}
           height={100}
-          className="mx-auto m-4"
+          className="mx-auto m-4 max-[900px]:w-9/12"
         />
         <div className=" flex justify-center relative">
           <div className="absolute -bottom-40 mx-auto">
