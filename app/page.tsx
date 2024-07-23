@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Nav from "./nav";
-import HeroText from "./hero";
 import Hero from "./hero";
 import Competencies from "./competencies";
 import Suppliers from "./suppliers";

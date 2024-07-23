@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Competencies = () => {
     return (
-        <div className="max-w-4xl border mx-auto relative max-lg:px-6 max-sm:px-4">
+        <div className="max-w-4xl mx-auto relative max-lg:px-6 max-sm:px-4 max-sm:my-6">
             <Image
                 src="percent1.svg"
                 width={50}

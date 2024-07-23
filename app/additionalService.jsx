@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AdditionalService = () => {
   return (
-      <section className="max-w-4xl border mx-auto my-8 relative max-lg:px-6 max-sm:px-4">
+      <section className="max-w-4xl mx-auto my-8 relative max-lg:px-6 max-sm:px-4">
         <Image
             src="rombus6.svg"
             width={200}

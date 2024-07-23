@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const TaxConsultation2 = () => {
   return (
-    <section className="max-w-4xl mx-auto my-8 border space-y-10 relative max-lg:px-6 max-sm:px-4">
+    <section className="max-w-4xl mx-auto my-8 space-y-10 relative max-lg:px-6 max-sm:px-4">
       <Image
           src="rombus8.svg"
           width={300}

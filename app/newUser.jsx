@@ -1,5 +1,5 @@
 'use client'
-
+import Link from "next/link";
 import Image from "next/image";
 import { REGEXP_ONLY_DIGITS_AND_CHARS } from "input-otp";
 
@@ -12,7 +12,7 @@ import {
 
 const NewUser = () => {
     return (
-        <section className="max-w-4xl border mx-auto my-8 relative max-lg:px-6 max-sm:px-4">
+        <section className="max-w-4xl mx-auto my-8 relative max-lg:px-6 max-sm:px-4">
             <Image
                 src="rombus3.svg"
                 alt="rombus3"
@@ -97,7 +97,7 @@ const NewUser = () => {
 
                             </form>
                             <button
-                                className="text-white bg-customBlue px-9 rounded-xl font-medium text-xl uppercase h-16"
+                                className="text-white bg-customBlue px-9 rounded-xl font-medium text-xl uppercase h-16 hover:opacity-80"
                                 type="submit">ПРОВЕРИТЬ
                             </button>
                         </div>
@@ -110,8 +110,8 @@ const NewUser = () => {
                     <div className="flex flex-col max-w-[641px]">
                         <p className="font-normal">Купить ежемесячную подписку и
                             проверять <br/> больше компаний</p>
-                        <a href="#"
-                           className="flex space-x-2 bg-customBlue rounded-lg text-white text-[10px] py-1 px-4 w-fit ml-auto">
+                        <Link href="https://t.me/NDS4B" target="_blank" rel="noopener noreferrer"
+                           className="flex space-x-2 bg-customBlue rounded-lg text-white text-[10px] py-1 px-4 w-fit ml-auto hover:opacity-80">
                             ТЕЛЕГРАММ <br/> @NDS4B
                             <Image
                                 src="/telegramSmall.svg"
@@ -119,7 +119,7 @@ const NewUser = () => {
                                 height={20}
                                 alt="telegram"
                             />
-                        </a>
+                        </Link>
                     </div>
                     <Image
                         className="object-contain"

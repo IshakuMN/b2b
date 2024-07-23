@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const CommissionTable = () => {
   return (
-    <div className="max-w-4xl mx-auto mt-56 relative max-lg:px-6 max-sm:px-4">
+    <div className="max-w-4xl mx-auto mt-56 relative max-lg:px-6 max-sm:px-4 max-md:mt-36">
       <Image
           src="rombus6.svg"
           width={200}
@@ -10,19 +10,19 @@ const CommissionTable = () => {
           alt="rombus"
           className="absolute -left-60 -top-16 -z-10 max-lg:-left-20"
       />
-      <h1 className="text-3xl font-medium text-center my-8">
+      <h1 className="text-3xl font-medium text-center my-8 max-md:text-2xl">
         КОМИССИЯ СЕРВИСА
       </h1>
       <table className="w-full border-collapse">
         <thead>
           <tr className="bg-customGrey">
-            <th className="border border-blue-300 px-4 py-2 text-left">
+            <th className="boder border-blue-300 px-4 py-2 text-left max-sm:text-sm">
               Объем заказа
             </th>
-            <th className="border border-blue-300 px-4 py-2 text-center bg-customBlue">
+            <th className="border border-blue-300 px-4 py-2 text-center bg-customBlue max-sm:text-sm">
               Текущий квартал
             </th>
-            <th className="border border-blue-300 px-4 py-2 text-center bg-customGreen">
+            <th className="border border-blue-300 px-4 py-2 text-center bg-customGreen max-sm:text-sm">
               Уточнение
             </th>
           </tr>

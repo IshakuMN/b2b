@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const IndustryExpertise = () => {
     return (
-        <div className="mx-auto my-8 border max-w-4xl max-lg:px-6 max-sm:px-4">
-            <h1 className="my-8 font-medium text-2xl text-center">
+        <div className="mx-auto my-8 max-w-4xl max-lg:px-6 max-sm:px-4">
+            <h1 className="my-8 font-medium text-2xl text-center max-md:my-4">
                 ОТРАСЛЕВАЯ ЭКСПЕРТИЗА
             </h1>
 
             <div className="flex max-[414px]:flex-col">
-                <div className="relative border w-96">
-                    <div className="relative border">
+                <div className="relative w-96">
+                    <div className="relative">
                         <Image
                             src="/Frame.png"
                             width={500}

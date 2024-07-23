@@ -11,7 +11,7 @@ const Reliability = () => {
         alt="rombus"
         className="absolute -left-60 -top-16"
       />
-      <div className="flex items-cente justify-center w-full border space-x-6 my-10 ">
+      <div className="flex items-cente justify-center w-full space-x-6 my-10 ">
         <Image
           src="/circleCheck.svg"
           alt="circleCheck"
@@ -25,7 +25,7 @@ const Reliability = () => {
           <p className="text-lg">И ОТВЕТСТВЕННОСТЬ</p>
         </h2>
       </div>
-      <div className="flex  items-center border justify-between max-[750px]:flex-col gap-6">
+      <div className="flex  items-center justify-between max-[750px]:flex-col gap-6">
         {" "}
         <div className="rounded-lg h-40 w-32 border overflow-hidden flex flex-col max-[750px]:w-6/12">
           <div className="bg-customGrey pt-4 flex-shrink-0">

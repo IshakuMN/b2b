@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="flex mx-auto my-8 border max-w-4xl max-lg:px-6 max-sm:px-4 max-sm:flex-col">
+    <div className="flex mx-auto my-8 max-w-4xl max-lg:px-6 max-sm:px-4 max-sm:flex-col">
       {" "}
       <div className="">
         {" "}
-        <div className="text-3xl font-bold border my-8 py-4 max-sm:text-2xl">
+        <div className="text-3xl font-bold my-8 py-4 max-sm:text-2xl">
           {" "}
           <div className="flex gap-2">
             <h1 className="text-customGreen">В2В</h1>
@@ -17,7 +17,7 @@ const Hero = () => {
             <h1>ОПТИМИЗАЦИИ</h1> <h1 className="text-customBlue">НДС</h1>
           </div>{" "}
         </div>
-        <div className="flex flex-col   border my-8 py-4">
+        <div className="flex flex-col my-8 py-4">
           <h1 className="text-xl font-bold mb-2">
             УМЕНЬШАЙТЕ{" "}
             <div className="flex gap-2">

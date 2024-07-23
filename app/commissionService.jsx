@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const CommissionService = () => {
   return (
-      <div className="max-w-4xl mx-auto border justify-center my-8 relative max-lg:px-6 max-sm:px-4">
+      <div className="max-w-4xl mx-auto justify-center my-8 relative max-lg:px-6 max-sm:px-4">
           <Image
               src="rombus6.svg"
               width={200}
@@ -11,7 +12,7 @@ const CommissionService = () => {
               className="absolute -right-60 -top-16 max-lg:-right-20"
           />
         <div className="flex  justify-center space-x-4">
-          <div className="relative flex space-x-6 items-center max-[540px]:space-x-1 max-[340px]:space-x-0">
+          <div className="relative flex space-x-6 items-center max-[540px]:space-x-1 max-[340px]:space-x-0 ">
             <Image
                 src="/rombusComp.svg"
                 width={400}
@@ -40,7 +41,7 @@ const CommissionService = () => {
               alt="arrow"
               className="absolute right-10 top-6"
           />
-          <div className="flex  space-x-2 bg-customBlue rounded-lg text-white text-[10px] py-1 px-4 w-fit">
+          <Link href="https://t.me/NDS4B" target="_blank" rel="noopener noreferrer" className="flex  space-x-2 bg-customBlue rounded-lg text-white text-[10px] py-1 px-4 w-fit hover:opacity-80">
             ТЕЛЕГРАММ <br /> @NDS4B
             <Image
                 src="/telegramSmall.svg"
@@ -48,7 +49,7 @@ const CommissionService = () => {
                 height={20}
                 alt="telegram"
             />
-          </div>
+          </Link>
         </div>
       </div>
   );

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Suppliers = () => {
   return (
-    <div className="max-w-4xl mx-auto relative max-lg:px-6 max-sm:px-4 z-20">
+    <div className="max-w-4xl mx-auto relative max-lg:px-6 max-sm:px-4 z-20 max-sm:my-8">
       <Image
           src="percent2.svg"
           width={130}
@@ -17,7 +17,7 @@ const Suppliers = () => {
           <span className="text-customBlue">|</span>
           <h1 className="text-xl font-bold">ПОСТАВЩИКИ</h1>
         </div>
-        <Image src="/gears.svg" alt="gears" width={200} height={160} className="absolute right-0 top-0 -z-10 max-sm: -right-16"/>
+        <Image src="/gears.svg" alt="gears" width={200} height={160} className="absolute right-0 top-0 -z-10 max-sm:-right-30"/>
       </div>
       <div></div>
       <div className="relative">
@@ -41,7 +41,7 @@ const Suppliers = () => {
           alt="2rombus1"
           width={300}
           height={210}
-          className="absolute -right-20 -bottom-10 -z-10"
+          className="absolute -right-20 -bottom-10 -z-10 max-sm:right-[-10rem]"
         />
       </div>
     </div>

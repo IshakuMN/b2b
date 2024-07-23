@@ -1,7 +1,7 @@
 import Image from "next/image";
 const AboutService = () => {
   return (
-    <div className="max-w-4xl border mx-auto my-16 relative max-lg:px-6 max-sm:px-4">
+    <div className="max-w-4xl mx-auto my-16 relative max-lg:px-6 max-sm:px-4">
       <Image
           src="rombus3.svg"
           alt="rombus3"
