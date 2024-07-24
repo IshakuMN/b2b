@@ -66,7 +66,7 @@ const NewUser = () => {
                         height={58}
                     />
                 </div>
-                <div className="flex flex-col gap-9 max-w-4xl py-9 px-9 rounded-[24px] bg-custom-gradient  max-sm:py-6 max-sm:px-6">
+                <div className="flex flex-col gap-9 max-w-4xl py-9 px-9 rounded-[24px]   max-sm:py-6 max-sm:px-6" style={{background: 'linear-gradient(107.07deg, #07B0F3 0.56%, #C1EEFF 132.85%)'}}>
                     <h2 className="font-medium text-4xl text-white max-[700px]:text-3xl  max-sm:text-xl">ПРОВЕРИТЬ ПРЯМО СЕЙЧАС</h2>
                     <div className="flex flex-col gap-6">
                         <div className="flex flex-row gap-10 items-center max-[1034px]:flex-col">

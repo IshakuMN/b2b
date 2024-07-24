@@ -12,7 +12,7 @@ const TaxpayerService = () => {
                 </h2>
             </div>
             <div
-                className="h-40 bg-custom-gradient rounded-2xl flex flex-row gap-2 mb-8 max-sm:flex-wrap max-sm:gap-7 max-sm:w-5/6 max-sm:mx-auto max-sm:my-0 max-sm:py-5 max-sm:h-auto max-[440px]:w-full">
+                className="h-40 rounded-2xl flex flex-row gap-2 mb-8 max-sm:flex-wrap max-sm:gap-7 max-sm:w-5/6 max-sm:mx-auto max-sm:my-0 max-sm:py-5 max-sm:h-auto max-[440px]:w-full" style={{background: 'linear-gradient(107.07deg, #07B0F3 0.56%, #C1EEFF 132.85%)'}}>
                 <div className="h-32 w-32 bg-white rounded-lg m-auto flex justify-center shadow-lg">
                     <Image
                         className="object-contain m-auto"

@@ -92,13 +92,7 @@ const config = {
         },
     },
     plugins: [
-        plugin(function ({addUtilities}) {
-            addUtilities({
-                '.bg-custom-gradient': {
-                    'background-image': 'linear-gradient(107.07deg, #07B0F3 0.56%, #C1EEFF 132.85%)',
-                },
-            });
-        })
+
     ]
 } satisfies Config
 
