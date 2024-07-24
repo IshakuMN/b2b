@@ -22,25 +22,25 @@ const AboutService = () => {
         <div className="space-y-6 absolute left-12 top-[14px] uppercase font-medium max-sm:text-sm max-sm:space-y-7 max-[555px]:text-xs max-[555px]:space-y-9 max-[484px]:text-customThree max-[484px]:space-y-9  max-[454px]:space-y-7 max-[444px]:space-y-6 max-[432px]:space-y-5  max-[392px]:text-customFour">
           <h3 className="flex gap-1">
             {" "}
-            <p className="text-customBlue">12 млрд</p> <br />
-            <p> руб годовой совокупный оборот поставщиков</p>
+            <span className="text-customBlue">12 млрд</span> <br />
+            <span> руб годовой совокупный оборот поставщиков</span>
           </h3>{" "}
           <h3 className="flex gap-1">
             {" "}
-            <p className="text-customBlue">3,3 млрд </p> <br />
-            <p> рублей сэкономили клиенты сервиса за 2023 год</p>
+            <span className="text-customBlue">3,3 млрд </span> <br />
+            <span> рублей сэкономили клиенты сервиса за 2023 год</span>
           </h3>{" "}
           <h3 className="flex">
             {" "}
-            <p className="">
+            <span className="">
               Предоставляем отложенные вычеты функционирующего <br /> бизнеса на
               основании выполненных контрактов
-            </p>{" "}
+            </span>{" "}
           </h3>{" "}
           <h3 className="flex gap-1">
             {" "}
-            <p className="text-customBlue">15 летний </p> <br />
-            <p> опыт налогового консалтинга</p>
+            <span className="text-customBlue">15 летний </span> <br />
+            <span> опыт налогового консалтинга</span>
           </h3>{" "}
         </div>
       </div>

@@ -152,7 +152,7 @@ const Specialist = () => {
                 клиентской поддержки 24/7.
               </p>
             </div>
-            <div className=" my-4 mx-auto max-[750px]:block max-[750px]:hidden">
+            <div className=" my-4 mx-auto max-[750px]:hidden">
               <Image
                   src="/specialistTree.svg"
                   alt="specialistTree"

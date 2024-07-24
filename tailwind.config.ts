@@ -36,7 +36,7 @@ const config = {
                 customGreyThree: "#BABABA",
                 backgroundImage: {
                     'custom-gradient': 'linear-gradient(107.07deg, #07B0F3 0.56%, #C1EEFF 132.85%)',
-                    'gradient-to-r': "linear-gradient(94.95deg, rgba(193, 238, 255, 0.5) -9.74%, rgba(193, 238, 255, 0.5) 67.02%)",
+                    'radial-custom': 'radial-gradient(circle closest-corner at center center, rgba(193, 238, 255, 1) 0%, rgba(255, 255, 255, 1) 41%)',
                     "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
                     "gradient-conic":
                         "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
@@ -97,8 +97,6 @@ const config = {
                 '.bg-custom-gradient': {
                     'background-image': 'linear-gradient(107.07deg, #07B0F3 0.56%, #C1EEFF 132.85%)',
                 },
-
-
             });
         })
     ]

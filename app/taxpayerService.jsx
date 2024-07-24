@@ -7,7 +7,7 @@ const TaxpayerService = () => {
             <Image className="absolute top-8 z-30 -right-20 object-contain max-[753px]:top-16 max-[753px]:-right-40 max-sm:top-64 max-sm:-right-72 max-[440px]:top-96 max-[440px]:-right-52 max-[349px]:top-2/3"
                    src="/iPhone.svg" width={500} height={250} alt="iPhone"/>
             <div className="flex flex-col w-full">
-                <h2 className="font-medium text-3xl mb-10 text-center max-[440px]:text-2xl">
+                <h2 className="font-medium text-3xl mb-10 text-center max-md:text-2xl">
                     СЕРВИС ГРАМОТНЫХ НАЛОГОПЛАТЕЛЬЩИКОВ
                 </h2>
             </div>

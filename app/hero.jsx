@@ -26,12 +26,13 @@ const Hero = () => {
           </h1>
           <p className="text-gray-700">
             получая отложенные вычеты{" "}
-            <p className="text-customBlue">крупного бизнеса</p>
+            <br />
+            <span className="text-customBlue">крупного бизнеса</span>
           </p>
-          <p className="flex gap-4 text-sm items-baseline mt-8 text-stone-500 font-light">
-            <Image src="/hammer.svg" alt="logo" width={34} height={34} />{" "}
+          <div className="flex gap-4 text-sm items-baseline mt-8 text-stone-500 font-light">
+            <Image src="/hammer.svg" alt="hammer" width={34} height={34}/>{" "}
             ЗАКОННАЯ ОПТИМИЗАЦИЯ
-          </p>
+          </div>
           <p className="text-sm text-stone-500 mt-2">*согласно Главе 21 НК РФ</p>
         </div>
       </div>

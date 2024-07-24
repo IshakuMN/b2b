@@ -27,6 +27,7 @@ const IndustryExpertise = () => {
                         </p>
                         <Image
                             src="/arrowPointer.svg"
+                            alt="arrowPointer"
                             width={35}
                             height={30}
                             className="ml-16 pt-3"

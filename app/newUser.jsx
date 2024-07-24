@@ -72,7 +72,7 @@ const NewUser = () => {
                         <div className="flex flex-row gap-10 items-center max-[1034px]:flex-col">
                             <form
                                 className="max-w-[681px] flex flex-row gap-8 shadow-lg bg-white py-5 px-5 flex-1 rounded-2xl h-28 items-center max-[700px]:flex-col">
-                                <label for="inn"
+                                <label htmlFor="inn"
                                        className="text-xl uppercase text-customGreyThree ">ВВЕДИТЕ
                                     ИНН КОМПАНИИ</label>
                                 <InputOTP name="inn" id="inn" type="number"

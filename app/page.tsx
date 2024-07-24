@@ -16,10 +16,12 @@ import TaxConsultation2 from "./taxConsultation2";
 import NewUser from "@/app/newUser";
 import NavButtom from "@/app/navButtom";
 import TaxpayerService from "@/app/taxpayerService";
+import RadialGradient from "@/app/radialGradient";
 
 export default function Home() {
     return (
-        <main className="overflow-hidden min-w-80">
+        <main className="overflow-hidden min-w-80 relative">
+            <RadialGradient/>
             <Nav/>
             <Hero/>
             <Competencies/>
