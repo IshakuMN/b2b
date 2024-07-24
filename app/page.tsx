@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Nav from "./nav";
-import HeroText from "./hero";
 import Hero from "./hero";
 import Competencies from "./competencies";
 import Suppliers from "./suppliers";
@@ -15,25 +13,33 @@ import ServiceOptions from "./serviceOptions";
 import AdditionalService from "./additionalService";
 import TaxConsultation from "./taxConsultation";
 import TaxConsultation2 from "./taxConsultation2";
+import NewUser from "@/app/newUser";
+import NavButtom from "@/app/navButtom";
+import TaxpayerService from "@/app/taxpayerService";
+import RadialGradient from "@/app/radialGradient";
 
 export default function Home() {
-  return (
-    <main>
-      <Nav />
-      <Hero />
-      <Competencies />
-      <Suppliers />
-      <Reliability />
-      <AboutService />
-      <IndustryExpertise />
-      <Specialist />
-      <CooperationStages />
-      <CommissionTable />
-      <CommissionService />
-      <ServiceOptions />
-      <AdditionalService />
-      <TaxConsultation />
-      <TaxConsultation2 />
-    </main>
-  );
+    return (
+        <main className="overflow-hidden min-w-80 relative">
+            <RadialGradient/>
+            <Nav/>
+            <Hero/>
+            <Competencies/>
+            <Suppliers/>
+            <Reliability/>
+            <AboutService/>
+            <IndustryExpertise/>
+            <Specialist/>
+            <CooperationStages/>
+            <CommissionTable/>
+            <CommissionService/>
+            <ServiceOptions/>
+            <AdditionalService/>
+            <TaxConsultation/>
+            <TaxConsultation2/>
+            <NewUser/>
+            <TaxpayerService/>
+            <NavButtom/>
+        </main>
+    );
 }
