@@ -43,7 +43,7 @@ const Hero = () => {
           alt="hero"
           width={220}
           height={220}
-          className="absolute top-1/2  -mt-8 border -left-8 max-sm:relative max-sm:mx-auto"
+          className="absolute top-1/2  -mt-8 -left-8 max-sm:relative max-sm:mx-auto"
         />
       </div>
     </div>
