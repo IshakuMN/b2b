@@ -34,6 +34,8 @@ const config = {
                 customBlue: "#2D95E4",
                 customGreyTwo: "#909090",
                 customGreyThree: "#BABABA",
+                customGreyFour: "#C6C6C6",
+                customGreyFive: "#737373",
                 backgroundImage: {
                     'custom-gradient': 'linear-gradient(107.07deg, #07B0F3 0.56%, #C1EEFF 132.85%)',
                     'radial-custom': 'radial-gradient(circle closest-corner at center center, rgba(193, 238, 255, 1) 0%, rgba(255, 255, 255, 1) 41%)',
