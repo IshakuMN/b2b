@@ -111,7 +111,7 @@ const Form = () => {
             <Image src="/4rombus.svg" alt="hero" width={500} height={500}
                    className="max-[760px]:absolute max-[760px]:-z-10 max-[760px]:-right-36 max-[760px]:-top-96"/>
             <div
-                className="bg-customGreyEight absolute z-20 top-[32%] -mt-8 -left-8 w-[400px] rounded-[20px] p-3 flex flex-col max-[888px]:top-[25%] max-[888px]:left-2 max-[760px]:relative max-[760px]:mx-auto max-[450px]:w-[320px] max-[350px]:w-[280px] max-sm:left-0">
+                className="bg-customGreyEight absolute z-20 top-[32%] -mt-8 right-0 w-[400px] rounded-[20px] p-3 flex flex-col max-[888px]:top-[25%] max-[888px]:left-2 max-[760px]:relative max-[760px]:mx-auto max-[450px]:w-[320px] max-[350px]:w-[280px] max-sm:left-0">
                 <div className="flex flex-col gap-4">
                     <div className="flex flex-row items-baseline gap-6 justify-between">
                         <p className="text-base font-medium text-black max-[760px]:text-sm">Рассчитать стоимость</p>

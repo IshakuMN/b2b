@@ -8,7 +8,7 @@ import Form from "@/app/Form";
 const Hero = () => {
 
     return (
-        <div className="flex mx-auto my-8 max-w-4xl max-lg:px-6 max-[760px]:px-4 max-[760px]:flex-col">
+        <div className="flex mx-auto my-8 max-w-4xl max-lg:px-6 max-[760px]:px-4 max-[760px]:flex-col justify-between">
             {" "}
             <div className="">
                 {" "}
