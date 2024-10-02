@@ -26,12 +26,19 @@ const IndustryExpertise = () => {
                             С НАМИ <br/> СОТРУДНИЧАЮТ
                         </p>
                         <Image
-                            src="/arrowPointer.svg"
-                            alt="arrowPointer"
-                            width={35}
+                            src="/arrowTgPointer.svg"
+                            width={30}
                             height={30}
-                            className="ml-16 pt-3"
+                            alt="arrow"
+                            className="ml-16 pt-3 rotate-0 -scale-x-100"
                         />
+                        {/*<Image*/}
+                        {/*    src="/arrowPointer.svg"*/}
+                        {/*    alt="arrowPointer"*/}
+                        {/*    width={35}*/}
+                        {/*    height={30}*/}
+                        {/*    className="ml-16 pt-3"*/}
+                        {/*/>*/}
                     </div>
                     <div className="bg-customGrey rounded-2xl shadow-lg py-6 px-8 space-y-4 w-fit font-medium sm:mr-0">
             <span className="bg-customBlue py-2 px-4 rounded-md text-white">

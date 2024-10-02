@@ -34,6 +34,11 @@ const config = {
                 customBlue: "#2D95E4",
                 customGreyTwo: "#909090",
                 customGreyThree: "#BABABA",
+                customGreyFour: "#C6C6C6",
+                customGreyFive: "#737373",
+                customGreySix: "#B5B5B5",
+                customGreySeven: "#D9D9D9",
+                customGreyEight:"#E7E7E7",
                 backgroundImage: {
                     'custom-gradient': 'linear-gradient(107.07deg, #07B0F3 0.56%, #C1EEFF 132.85%)',
                     'radial-custom': 'radial-gradient(circle closest-corner at center center, rgba(193, 238, 255, 1) 0%, rgba(255, 255, 255, 1) 41%)',
@@ -92,13 +97,7 @@ const config = {
         },
     },
     plugins: [
-        plugin(function ({addUtilities}) {
-            addUtilities({
-                '.bg-custom-gradient': {
-                    'background-image': 'linear-gradient(107.07deg, #07B0F3 0.56%, #C1EEFF 132.85%)',
-                },
-            });
-        })
+
     ]
 } satisfies Config
 
